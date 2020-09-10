@@ -22,7 +22,8 @@
     "ol": "6.2.1",
     "proj4": "2.5.0",
     "vue": "2.6.11",
-    "vuetify": "1.5.23"
+    "vuetify": "1.5.23",
+    "vue-multiselect": "^2.1.6"
   },
   "devDependencies": {
     "@vue/test-utils": "^1.0.3",
