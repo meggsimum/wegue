@@ -107,7 +107,8 @@ export const LayerFactory = {
         serverType: lConf.serverType,
         attributions: lConf.attributions,
         tileGrid: lConf.tileGrid,
-        projection: lConf.projection
+        projection: lConf.projection,
+        crossOrigin: lConf.crossOrigin
       })
     });
 
@@ -219,7 +220,8 @@ export const LayerFactory = {
         url: lConf.url,
         attributions: lConf.attributions,
         tileGrid: lConf.tileGrid,
-        projection: lConf.projection
+        projection: lConf.projection,
+        crossOrigin: lConf.crossOrigin
       })
     });
 
@@ -241,7 +243,9 @@ export const LayerFactory = {
       displayInLayerList: lConf.displayInLayerList,
       visible: lConf.visible,
       opacity: lConf.opacity,
-      source: new OsmSource()
+      source: new OsmSource({
+        crossOrigin: lConf.crossOrigin
+      })
     });
 
     return layer;

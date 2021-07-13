@@ -25,6 +25,7 @@ The following properties can be applied to all map layer types
 | Property           | Meaning | Example |
 |--------------------|:---------:|---------|
 | **type**           | Indicator that the layer is a OpenStreetMap tile server layer, always `OSM` here  | `"type": "OSM"` |
+| crossOrigin        | Provides support for CORS, defining how the layers source handles crossorigin requests. For more information and the supported values see [HTML attribute: crossorigin](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/crossorigin)  | `"crossOrigin": "anonymous"` |
 
 ## VECTOR
 
@@ -82,6 +83,7 @@ The following properties can be applied to all map layer types
 | transparent        | Boolean value, whether the WMS layer should be queried with a transparent background  | `"transparent": true` |
 | singleTile         | Boolean value, whether the WMS layer should be queried in single tile mode | `"singleTile": false` |
 | tileGridRef        | Identifier of the tile grid to use for this layer (has to be defined in `tileGridDefs` | `"tileGridRef": "dutch_rd"` |
+| crossOrigin        | Provides support for CORS, defining how the layers source handles crossorigin requests. For more information and the supported values see [HTML attribute: crossorigin](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/crossorigin)  | `"crossOrigin": "anonymous"` |
 
 ## XYZ
 
@@ -90,6 +92,7 @@ The following properties can be applied to all map layer types
 | **type**           | Indicator that the layer is a XYZ tiled image layer, always `XYZ` here  | `"type": "XYZ"` |
 | **url**            | The URL of the service providing the image tiles | `"url": "https://geodata.nationaalgeoregister.nl/tiles/service/wmts/brtachtergrondkaart/EPSG:28992/{z}/{x}/{y}.png"` |
 | tileGridRef        | Identifier of the tile grid to use for this layer (has to be defined in `tileGridDefs` | `"tileGridRef": "dutch_rd"` |
+| crossOrigin        | Provides support for CORS, defining how the layers source handles crossorigin requests. For more information and the supported values see [HTML attribute: crossorigin](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/crossorigin)  | `"crossOrigin": "anonymous"` |
 
 ## Style for Vectorlayers
 

@@ -20,6 +20,7 @@
     "init:app": "node util/init-app.js"
   },
   "dependencies": {
+    "canvas-record": "^3.0.0",
     "ol": "6.4.3",
     "proj4": "2.5.0",
     "vue": "2.6.11",

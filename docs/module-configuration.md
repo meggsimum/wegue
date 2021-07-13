@@ -129,3 +129,12 @@ Module identifier: `wgu-attributetable`
 |--------------------|:---------:|---------|
 | selectorLabel      | Override the placeholder text for the layer selection combo box.  | `"selectorLabel": "Choose a layer"` |
 | syncTableMapSelection | Clicking on a row zooms to the respective feature. If the layer is `selectable` the feature will also be selected. Selecting a feature on the map selects the corresponsing row in the table. | `"syncTableMapSelection": true` |
+
+## MapRecorder
+
+Module identifier: `wgu-maprecorder`
+
+No additional config options besides the general ones.
+
+**Important:**
+For [WMS](map-layer-configuration?id=wms), [XYZ](map-layer-configuration?id=xyz) and [OSM](map-layer-configuration?id=xyz) layers requested from cross origin sources you have to enable CORS via the layers `crossOrigin` attribute, in order to grant the required capturing privileges to the map recorders canvas.

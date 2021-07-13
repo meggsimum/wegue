@@ -286,7 +286,8 @@ Example configurations can be found in the `app-starter/static` directory. Below
       "attributions": "Map data: <a href=\"https://openstreetmap.org/copyright\">©OpenStreetMap</a>-contributors, SRTM | Map representation (Kartendarstellung): © <a href=\"http://opentopomap.org/\">OpenTopoMap</a> (<a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">CC-BY-SA</a>)",
       "lid": "opentopomap",
       "isBaseLayer": true,
-      "visible": false
+      "visible": false,
+      "crossOrigin": "anonymous"
     },
 
     {
@@ -294,7 +295,8 @@ Example configurations can be found in the `app-starter/static` directory. Below
       "lid": "osm-bg",
       "name": "OSM",
       "isBaseLayer": true,
-      "visible": true
+      "visible": true,
+      "crossOrigin": "anonymous"
     }
 
   ],
@@ -349,6 +351,17 @@ Example configurations can be found in the `app-starter/static` directory. Below
     "wgu-zoomtomaxextent": {
       "target": "toolbar",
       "darkLayout": true
+    },
+    "wgu-maprecorder": {
+      "target": "toolbar",
+      "win": "floating",
+      "icon": "mdi-video",
+      "darkLayout": true,
+      "draggable": false,
+      "initPos": {
+        "left": 8,
+        "top": 230
+      }
     },
     "wgu-helpwin": {
       "target": "toolbar",
