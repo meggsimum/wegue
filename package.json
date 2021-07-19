@@ -1,6 +1,6 @@
 {
   "name": "wegue",
-  "version": "1.0.0-dev",
+  "version": "0.21.0",
   "description": "Template project for a WebGIS client with OpenLayers and Vue.js",
   "author": "Christian Mayer <chris@meggsimum.de>",
   "contributors": {
